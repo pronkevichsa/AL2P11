@@ -52,7 +52,7 @@ namespace AL2P11
     }
 
     public class FilePrinter:Printer
-    {
+    { 
         public override void Print(string text)
         {
             System.IO.File.WriteAllText(@"d:\\1.txt",text);
